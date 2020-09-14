@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.jp</groupId>
+	<artifactId>batch-demo</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>batch-demo</name>
+	<description>projrct for batch demo</description>
+	<dependencies>
+		<dependency>
+			<groupId>com.microsoft.azure</groupId>
+			<artifactId>azure-batch</artifactId>
+			<version>7.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.microsoft.rest</groupId>
+			<artifactId>client-runtime</artifactId>
+			<version>1.6.4</version>
+		</dependency>
+		<dependency>
+			<groupId>com.microsoft.azure</groupId>
+			<artifactId>azure-client-runtime</artifactId>
+			<version>1.6.4</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.11</version>
+		</dependency>
+		<dependency>
+			<groupId>com.microsoft.azure</groupId>
+			<artifactId>azure-storage</artifactId>
+			<version>8.0.0</version>
+		</dependency>
+	</dependencies>
+</project>
